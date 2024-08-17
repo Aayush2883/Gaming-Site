@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+*{
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+html,body{
+    height:100%;
+    width: 100%;
+    overflow-x: hidden;
+    COLOR:WHITE;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+
+.page1 video{
+    width: 100vw;
+    position: fixed;
+    z-index: -1;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.page1{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    color:white;
+    display: flex;
+    justify-content: center;
+    font-family: "Matemasie", sans-serif;
+    align-items: center;
+}
+
+.header{
+    width: 100vw;
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    font-family: "Matemasie", sans-serif;
+    position: fixed;
+    top:0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo{
+    text-align: center;
+    font-size: 40px;
+    font-family: "Sankofa Display", sans-serif;
+    font-weight: 700;
+}
+
+li{
+    list-style-type: none;
+    font-size: 1.15rem;
+    font-family: "New Amsterdam", sans-serif;
+}
+
+nav ul{
+    display: flex;
+    gap: 25px;
+}
+
+.slogan{
+    display: flex;
+    font-size: 5vh;
+    opacity: 0.7;
+    mix-blend-mode: difference;
+}
+
+.word1{
+    position: absolute;
+    left: 60px;
+}
+
+.word3{
+    position: absolute;
+    right: 60px;
+}
+
+.page2{
+    height: 100vh;
+    width: 100vw; 
+    display: flex; 
+    justify-content: space-around;
+    align-items: center; 
+}
+
+.about-content{
+    position: relative;
+    width:40vw;
+    height: 60vh;
+    font-size: 1.5rem;
+    line-height: 1.5em;
+    display: grid;
+    place-content: center;
+    text-align: center;
+    mix-blend-mode: difference;
+    color:white;
+    padding: 0 40px;
+}
+
+
+
+
+.page2 .heading{
+    display: flex;
+    flex-direction: column;
+}
+
+.heading h2{
+    font-size: 60px;
+    mix-blend-mode: difference;
+    color: #fff;
+    position: relative;
+    text-align: center;
+    word-spacing: 40px;
+    top:-170px;
+    font-family: "New Amsterdam", sans-serif;
+    
+}
+
+
+.page3{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+
+}
+
+.page3 .content{
+    position: relative;
+    font-size: 25vw;
+    font-weight: 900;
+    white-space: nowrap;
+    padding-left: 150px;
+}
+
+.page4{
+    height: 200vh;
+    width: 100vw;
+    position: relative;
+}
+
+
+.image-wrapper{
+    background: url("https://wallpaperaccess.com/full/1727663.jpg");
+    width: 100vw;
+    height: 80vh;
+    object-fit: cover;
+    -webkit-mask-image: linear-gradient(#000,rgba(0,0,0,0));
+    mask-image: linear-gradient(#000,rgba(0,0,0,0));
+    background-size: 120%;
+    background-position: 50% 0%;
+    
+}
+
+
+
+.image-wrapper:after {
+    background: linear-gradient(180deg, #000, transparent 25%), linear-gradient(180deg, #000, transparent 16%);
+    content: "";
+    height: 90vh;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.outlast1-poster{
+    height:110vh;
+    width:40vw;
+    background: url("https://picfiles.alphacoders.com/367/thumb-1920-367918.jpg");
+    object-fit: contain;
+    background-size: 110%;
+    background-position: 70% 0%;
+    display: grid;
+    place-content: center;
+}
+
+.outlast1{
+    top:-100px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+
+.outlast1-info{
+    width: 40vw;
+    height: 110vh;
+    display: grid;
+    place-content: center;
+    gap:40px;
+}
+
+.outlast1-info h2{
+    font-family: "New Amsterdam", sans-serif;
+    letter-spacing: 3px;
+    font-size: 5rem;
+}
+
+.page5{
+    height: 200vh;
+    width: 100vw;
+    position: relative;
+}
+
+.image-wrapper2{
+    background: url("https://getwallpapers.com/wallpaper/full/7/0/8/1465133-download-free-counter-strike-hd-wallpapers-1920x1200-desktop.jpg");
+    width: 100vw;
+    height: 80vh;
+    object-fit: cover;
+    -webkit-mask-image: linear-gradient(#000,rgba(0,0,0,0));
+    mask-image: linear-gradient(#000,rgba(0,0,0,0));
+    background-size: 120%;
+    background-position: 50% 0%;
+    
+}
+
+.image-wrapper2:after {
+    background: linear-gradient(180deg, #000, transparent 25%), linear-gradient(180deg, #000, transparent 16%);
+    content: "";
+    height: 90vh;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.counter-strike-poster{
+    height:110vh;
+    width:40vw;
+    background: url("https://getwallpapers.com/wallpaper/full/b/5/8/609457.jpg");
+    object-fit: contain;
+    background-size: 200%;
+    background-position: 25% 100%;
+    display: grid;
+    place-content: center;
+}
+
+.counter-strike{
+    top:-100px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+
+.counter-strike-info{
+    width: 40vw;
+    height: 110vh;
+    display: grid;
+    place-content: center;
+    gap:40px;
+}
+
+.counter-strike-info h2{
+    font-family: "New Amsterdam", sans-serif;
+    letter-spacing: 3px;
+    font-size: 5rem;
+}
+
+.page6{
+    height: 40vh;
+    width: 100vw;
+    
+}
+
+.string{
+    display: grid;
+    place-content: center;
+    height: 160px;
+    width: 100vw;
+    position: relative;
+    top:-200px;
+}
+
+.footer{
+    position: relative;
+    top: -220px;
+    width:100vw;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    gap:20px;
+
+}
+
+.foot1{
+    width: 30vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 20px;
+
+}
+
+.foot2{
+    width:60vw;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:20px;
+}
+
+.foot1 ul{
+    display: flex;
+    
+}
+
+i{
+    color: white;
+    font-size: 30px;
+    padding-right: 15px;
+    position: relative;
+}
+
+i:hover{
+    top:-5px;
+    
+}
+
+.game-list{
+    width:20%;
+    
+}
+
+.game-list li{
+    font-size: 2rem;
+    padding-top: 10px;
+    position: relative;
+    transition-duration:0.5s ;
+}
+
+.game-list li:hover{
+    left:10px;
+}
+
+
+
+.foot-nav{
+    width:20%;
+}
+
+.foot-nav li{
+    padding-top: 5px;
+    position: relative;
+}
+
+.foot-nav li:hover{
+    left:5px;
+}
+
+.foot-png{
+    width:40%;
+    height:90%;
+}
+
+.foot-png img{
+    height: 100%;
+    width:100%;
+}
+
